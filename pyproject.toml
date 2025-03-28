@@ -3,11 +3,8 @@
 # 2025-03-28
 
 [build-system]
-# A list of packages that are needed to build your package:
-requires = ["setuptools"] # REQUIRED if [build-system] table is used
-# The name of the Python object that frontends will use to perform the build:
-build-backend = "setuptools.build_meta" # If not defined, then legacy behavior can happen.
-
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyncoda-codebook"
