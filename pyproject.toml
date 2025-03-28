@@ -12,7 +12,7 @@ version = "0.1.0"
 description = "Package that generates a PDF codebook based on specified data structure and datafile."
 readme = "README.md"
 requires-python = ">=3.9"
-license = "MPL-2.0"
+license = { text = "MPL-2.0" }
 keywords = ["codebook", "pdf", "pyncoda"]
 authors = [{ name = "Nathanael Rosenheim", email = "nrosenheim@gmail.com" }]
 maintainers = [{ name = "Nathanael Rosenheim", email = "nrosenheim@gmail.com" }]
@@ -20,7 +20,6 @@ classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Science/Research",
   "Topic :: Scientific/Engineering",
-  "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10"
@@ -28,9 +27,9 @@ classifiers = [
 
 # Dependencies required to run the package
 dependencies = [
-    "pandas>=2.2,<2.3",
-    "numpy>=1.26,<1.27",
-    "fpdf2>=2.7,<2.8"
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "fpdf2>=2.7"
 ]
 
 [tool.setuptools.packages.find]

@@ -4,7 +4,7 @@
 
 import unittest
 
-from sample.simple import add_one
+from pyncoda_codebook.simple import add_one  # Updated import
 
 
 class TestSimple(unittest.TestCase):
