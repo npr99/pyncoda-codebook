@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyncoda-codebook"
-version = "0.2.1"
+version = "0.2.2"
 description = "Package that generates a PDF codebook based on specified data structure and datafile."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -26,11 +26,13 @@ classifiers = [
 ]
 
 # Dependencies required to run the package
-dependencies = [
-    "pandas>=2.2",
-    "numpy>=1.26",
-    "fpdf2>=2.7"
-]
+# issues with using pip to manage dependencies
+# manually set up environment 
+#dependencies = [
+#    "pandas>=2.2",
+#    "numpy>=1.26",
+#    "fpdf2>=2.7"
+#]
 
 [tool.setuptools.packages.find]
 where = ["src"]
