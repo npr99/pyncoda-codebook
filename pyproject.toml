@@ -7,8 +7,8 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyncoda-codebook"
-version = "0.2.2"
+name = "pyncoda-codebook-test"
+version = "0.3.0"
 description = "Package that generates a PDF codebook based on specified data structure and datafile."
 readme = "README.md"
 requires-python = ">=3.9"
